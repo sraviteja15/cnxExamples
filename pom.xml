@@ -13,7 +13,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<app.runtime>4.4.0-20220221</app.runtime>
-		<mule.maven.plugin.version>3.8.6</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.6.3</mule.maven.plugin.version>
 	</properties>
 
 	<build>
@@ -60,10 +60,6 @@
 			<version>1.2.2</version>
 			<classifier>mule-plugin</classifier>
 		</dependency>
-		<dependency>
-         <groupId>org.jenkins-ci.plugins</groupId>
-         <artifactId>git</artifactId>
-       </dependency>
 	</dependencies>
 	<repositories>
 		<repository>
