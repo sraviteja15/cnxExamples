@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>sample</artifactId>
+	<artifactId>sampleCNX</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
-	<name>sample</name>
+	<name>sampleCNX</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,18 +29,18 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				  <cloudHubDeployment>
-					<uri>https://anypoint.mulesoft.com</uri>
-					<muleVersion>${mule.version}</muleVersion>
-					<username>${anypoint.username}</username>
-					<password>${anypoint.password}</password>
-					<environment>${env}</environment>
-					<applicationName>${appname}</applicationName>
-					<businessGroup>${business}</businessGroup>
-				    <workerType>${vCore}</workerType>
-				    <workers>${workers}</workers>
-				    <objectStoreV2>true</objectStoreV2>
-				   </cloudHubDeployment>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>${mule.version}</muleVersion>
+						<username>${anypoint.username}</username>
+						<password>${anypoint.password}</password>
+						<environment>${env}</environment>
+						<applicationName>${appname}</applicationName>
+						<businessGroup>${business}</businessGroup>
+						<workerType>${vCore}</workerType>
+						<workers>${workers}</workers>
+						<objectStoreV2>true</objectStoreV2>
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
